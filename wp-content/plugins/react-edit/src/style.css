@@ -1,0 +1,36 @@
+.posts{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.post{
+    margin-top: 30px;
+}
+
+.post input, .post input:focus{
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.post img:hover{
+    opacity: .8;
+}
+.placeholder{
+    width: 300px;
+    height: 198px;
+    border: 1px solid #444;
+}
+
+.placeholder svg{
+    width:300px !important;
+    height: 200px !important;
+}
+
+.button-row{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
